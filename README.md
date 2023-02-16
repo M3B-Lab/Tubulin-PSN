@@ -2,39 +2,22 @@
 This repository contains all the necessary data to replicate the simulations of the paper "Mechanical Communication within the Microtubule through Network-based Analysis of Tubulin Dynamics", which has been submitted but not published.
 
 The input data to replicate the simulations are organized as follows:
-- `md.mdp`
+- `md.mdp`: The mdp file used to run the simulations in GROMACS.
 
-This is the mdp file used to run the simulations in GROMACS.
+- `S1/`: Folder regarding the S1 system.
 
-- `S1/`
- This is the folder regarding the S1 system.
+  - `Input/`: Folder containing the pdb and tpr files.
 
-  - `Input/`
+  - `Topologies/`: Folder containing the topology defining the system.
 
-  folder containing the pdb and tpr files.
+- `S2/`: Folder regarding the S2 system.
 
-  - `Topologies/`
+  - `Input/`: Folder containing the pdb and tpr files.
 
-  folder containing the topology defining the system.
+  - `Topologies/`: Folder containing the topology defining the system.
 
-- `S2/`
- This is the folder regarding the S2 system.
+- `S3/`: Folder regarding the S3 system.
 
-  - `Input/`
+  - `Input/`: Folder containing the pdb and tpr files.
 
-  folder containing the pdb and tpr files.
-
-  - `Topologies/`
-
-  folder containing the topology defining the system.
-
-- `S3/`
- This is the folder regarding the S3 system.
-
-  - `Input/`
-
-  folder containing the pdb and tpr files.
-
-  - `Topologies/`
-
-  folder containing the topology defining the system.
+  - `Topologies/`: Folder containing the topology defining the system.
